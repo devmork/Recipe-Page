@@ -41,6 +41,11 @@
   src: url(/public/assets/fonts/outfit/static/Outfit-Medium.ttf);
 }
 
+@font-face {
+  font-family: 'Outfit Regular';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
 
 body {
   background-color: hsl(30, 54%, 90%);
@@ -54,7 +59,6 @@ main {
   place-content: center;
 
 }
-
 
 article {
   display: grid;
@@ -70,9 +74,12 @@ article {
 
 }
 
-
 /*Recipe Hero Section*/
 
+
+.recipe-hero-section {
+  padding-inline: 30px;
+}
 
 .omelette-picture-container {
   display: grid;
@@ -82,6 +89,7 @@ article {
 
 .omelette-picture-jpeg {
   max-width: 31.25rem;
+  object-fit: contain;
 }
 
 
@@ -91,6 +99,16 @@ article {
 
 }
 
+.recipe-description {
+  font-family: 'Outfit Regular';
+  font-size: 1rem;
+}
 
+
+
+.preparation-time-section {
+  
+}
+  
 
 
