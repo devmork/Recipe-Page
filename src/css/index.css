@@ -13,6 +13,10 @@ body {
   
 }
 
+main {
+   margin: 100px;
+}
+
 article {
   max-width: 40.625rem;
   padding: 32px;
