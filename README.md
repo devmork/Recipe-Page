@@ -49,21 +49,8 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 
 
-### Continued development
-
-
-
-
-
-### Useful resources
-
-
 
 ## Author
 
 - Frontend Mentor: @devmork
-
-
-
-## Acknowledgments
 
