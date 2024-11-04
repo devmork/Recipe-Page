@@ -5,13 +5,134 @@
 }
 
 
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(30, 54%, 90%);
+  border: solid 2px red;
+}
 
 main {
-  background-color: hsl(30, 54%, 90%);
-  min-height: 100vh;
-  max-width: 100%;
-  display: grid;
-  place-content: center;
+  
+  border: solid 2px red;
+  
+}
+
+article {
+  max-width: 40.625rem;
+  padding: 32px;
+  background-color: #ffff;
+  border-radius: 30px;
+}
+
+/*header-recipe section*/
+
+.recipeImg-container {
+  display: flex;
+  justify-content: center;
+}
+
+#recipe-img {
+  max-width: 590px;
+  border: solid 2px red;
+  border-radius: 10px;
+  
+}
+
+.recipe-details-container {
+  border: solid 2px red;
+  margin-top: 15px;
+}
+
+.recipe-name {
+  font-family: 'YoungSeruf Regular';
+  font-size: 2.375rem;
+}
+
+.recipe-description {
+  font-family: 'Outfit Regular';
+  font-size: 0.889rem;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 
+/*recipe-preparation section*/
+
+.recipe-preparationTime {
+  font-family: 'Outfit Regular';
+  border: solid 2px red;
+  padding: 30px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+#preparationTime-heading {
+  color: hsl(332, 51%, 32%);
+  
+}
+
+.preparationTime-list {
+  margin-left: 30px;
+}
+
+.preparationTime-list li {
+  border: solid 2px red;
+  line-height: 150%;
+  padding: 10px 0px 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'YoungSerif Regular';
+  src: url(/public/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit Black';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit Bold';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Outift ExtraBold';
+  src: url(/public/assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit ExtraLight';
+  src: url(/public/assets/fonts/outfit/static/Outfit-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit Light';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit Medium';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit Regular';
+  src: url(/public/assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
