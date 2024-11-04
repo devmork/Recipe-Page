@@ -10,23 +10,20 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
-
-
 
 
 ## Overview
 
 ### Screenshot
 
-![]()
+![](public/assets/screenshots/Screenshot%202024-11-05%20000737.png)
 
 
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/devmork/Recipe-Page 
 - Live Site URL: 
 
 ## My process
@@ -38,14 +35,6 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-
-
-
-
-### What I learned
-
-
-
 
 
 ## Author
